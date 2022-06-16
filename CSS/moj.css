@@ -1,0 +1,73 @@
+
+.cardNext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.cardNextAnimation {
+    
+    width: 360px;
+    height: 800px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    z-index: -10;
+   
+}
+
+.cardNextAnimationBlack {
+    background-color: black;
+}
+
+
+.circle {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.circleBlack{
+    width:360px;
+    height: 360px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+ .imgCircle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../IMG/test.jpg);
+    height: 400px;
+    width: 330px;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .imgCircletop {
+    top: 0%;
+ }
+
+ .textcircle {
+    margin-top: 200px;
+    color: white;
+    font-size: 20px;
+    z-index: 20;
+ }
